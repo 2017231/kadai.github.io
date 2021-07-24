@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="3 css/page3.css">
+        <title>page2 - css</title>
+    </h表示する
+
+    <body>
+
+        <div>
+            <h1 id="header">最終課題　授業のまとめノート</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>                
+                    <li><a href="../page1/index.html">html</a></li>
+                    <li><a href="../page2/index.html">css(stylesheet)</a></li>
+                    <li id="here" class=”current”>js(javaScript)</li>
+                </ul>
+            </nav>
+
+            <h2>page3 - javaScript</h2>
+            
+            <p>CSSとは、主にブラウザ上で動くプログラミング言語。</p>
+            <p>ほとんどのwebサイトで利用されている。　※Javaとは異なる。</p>
+
+            <h3>javaScriptの適用のさせ方</h3>
+            <p>javaScriptはhtmlファイルに<em>直接書き込む方法</em>と、拡張子「.js」の<em>ファイルに格納する</em>方法がある。</p>
+            <p>htmlに直接scriptを書き込むと文章が煩雑になるので、基本的に<em>jsファイルに格納する。</em></p>
+            <p>scriptタグは<em>bodyの閉じタグの直前</em>に書き込む。</p>
+            <p>別ファイルのscriptファイルを指定するコードは</p>
+            <pre class="code">
+                &lt;script src=&quot;.jsファイルの相対パス&quot;&gt;&lt;script&gt;
+            </pre>  
+
+
+            <h3>基本的なjavaScript</h3>
+            <p>htmlに直接書き込む場合は「script」タグの中に、.jsファイルの場合は直接式を書き込む。</p>
+            <div>
+                <ul>
+                    <li>alert(""); - ページを開くとアラートを表示する</li>
+                    <li>console.log(""); - 開発者ツールのコンソールにメッセージを表示する</li>
+                    <li>var 変数名 = ""; - 変数(値を格納する) varはその宣言。</li>
+                </ul>
+            </div>
+            <p>などのような式を組み合わせて用いることで様々な処理を行うことができる。</p>
+            
+        </div>
+
+        <script src="./3 js/page3.js"></script>
+
+    </body>
+</html>
