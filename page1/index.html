@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="1 css/page1.css">
+        <title>page1 html</title>
+    </head>
+
+    <body>
+
+        <div>
+            <h1 id="top">最終課題　授業のまとめノート</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li id="here" class=”current”>html</li>
+                    <li><a href="../page2/index.html">css(stylesheet)</a></li>                
+                    <li><a href="../page3/index.html">js(javaScript)</a></li>
+                </ul>
+            </nav>
+
+            <h2>page1 - html</h2>
+            
+            <p>htmlとは、Hyper Text Markup Languageの略称。</p>
+            <p>"htmlタグ"を用いて文章を構造化する。</p>
+            
+            <h3>htmlの書き方</h3>
+            <div>
+                <p>&lt;で始まる開始タグ、&lt;/で始まる&quot;終了タグ&quot;によって&quot;コンテンツ&quot;を挟む。これが一つの要素。</p>
+                <p></p>
+                <pre class="code">&lt;html&gt;
+
+  &lt;head&gt;
+      コンテンツ
+  &lt;/head&gt;
+              
+  &lt;body&gt;
+    コンテンツ
+  &lt;/body&gt;
+              
+&lt;/html&gt;</pre>
+                  <p></p>
+                  <p>というような場合、headタグ、bodyタグは親要素であるhtmlタグの子要素となる。</p>
+ 
+            </div>
+
+            <h3>最低限必要なhtmlタグ</h3>
+            <div class="h3honbun">
+                <p>授業で行った環境でhtmlを書く際、毎回同じことを書くのは面倒なので、以下の要素はコピーして使えるようにメモしておく</p>
+                <textarea>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot;&gt;
+        &lt;title&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;&lt;/h1&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+                    </textarea>
+                    
+                    <br><br>
+                    
+                   
+                    <button onclick = "copy()">
+                    コピーする
+                    </button>
+
+            </div>
+            
+        </div>
+
+        <script src="1 js/page1.js"></script>
+
+    </body>
+</html>
